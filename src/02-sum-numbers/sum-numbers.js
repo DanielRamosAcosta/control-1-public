@@ -6,9 +6,8 @@
  * // 1 + 2 + 3 + 4 + 5 = 15
  * sumNumbers(5) // 15
  */
-function sumNumbers(number) {
-  // TODO: implement
-}
+const sumNumbers = number => (number  <= 1) ? number : sumNumbers(number - 1) + number;
+
 
 module.exports = {
   sumNumbers
