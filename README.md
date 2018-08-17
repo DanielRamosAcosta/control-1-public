@@ -3,7 +3,7 @@
 ## OOP
 
 Hacer una clase `Person` que tenga el método `sayHi` que devuelve un `string`
-con un saludo. Luego hacer dos clases Hijas `Driver` que representa un
+con un saludo. Luego hacer dos clases Hijas: `Driver` que representa un
 conductor de un coche y `Programmer`.
 
 A estas dos clases hijas pueden ponerle los métodos y atributos que quieran,
